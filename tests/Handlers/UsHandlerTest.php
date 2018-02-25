@@ -101,10 +101,6 @@ class UsHandlerTest extends HandlerTest
             'registered' => 'yes',
         ];
 
-        if ($actual['regrinfo']['domain']['changed'] === '2017-02-06') {
-            $this->markTestSkipped('get_date() is broken');
-        }
-
         $this->assertArraySubset($expected, $actual['regrinfo'], 'Whois data may have changed');
         $this->assertArrayHasKey('rawdata', $actual);
         $this->assertArraySubset($fixture, $actual['rawdata'], 'Fixture data may be out of date');
