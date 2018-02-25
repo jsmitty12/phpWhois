@@ -39,7 +39,7 @@ class us_handler
     function parse($data_str, $query)
     {
         $r = [
-            'regrinfo' => generic_parser_b($data_str['rawdata'], [], 'mdy'),
+            'regrinfo' => generic_parser_b($data_str['rawdata'], [], 'ymd'),
             'regyinfo' => [
                 'referrer'  => 'http://www.neustar.us',
                 'registrar' => 'NEUSTAR INC.',
