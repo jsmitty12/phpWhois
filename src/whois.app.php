@@ -23,11 +23,17 @@
  */
 
 if (!defined('__APP_HANDLER__'))
+{
     define('__APP_HANDLER__', 1);
+}
 
 require_once('whois.parser.php');
 
-class app_handler {
+/**
+ * Class app_handler
+ */
+class app_handler
+{
 
     function parse($data_str, $query) {
         $r = array();
