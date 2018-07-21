@@ -31,11 +31,8 @@ class app_handler {
 
     function parse($data_str, $query) {
         $r = array();
-        $r['regrinfo'] = generic_parser_b($data_str['rawdata'], array(), 'mdy');
-//        $r['regyinfo'] = array(
-//            'referrer' => 'http://www.neulevel.biz',
-//            'registrar' => 'NEULEVEL'
-//        );
+        $r['regrinfo'] = generic_parser_b($data_str['rawdata']);
+        $r['rawdata'] = $data_str['rawdata'];
         return $r;
     }
 

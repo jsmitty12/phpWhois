@@ -22,12 +22,12 @@
 namespace phpWhois\Handlers;
 
 /**
- * OrgHandlerTest
+ * AppHandlerTest
  */
 class AppHandlerTest extends HandlerTest
 {
     /**
-     * @var \org_handler $handler
+     * @var \app_handler $handler
      */
     protected $handler;
 
@@ -38,7 +38,7 @@ class AppHandlerTest extends HandlerTest
     {
         parent::setUp();
 
-        $this->handler            = new \org_handler();
+        $this->handler            = new \app_handler();
         $this->handler->deepWhois = false;
     }
 
