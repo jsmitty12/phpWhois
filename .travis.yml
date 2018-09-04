@@ -28,7 +28,6 @@ install:
   - composer self-update && composer --version
 
 before_script:
-  - phpenv install --releases
   - phpenv versions
   - composer validate --no-check-all --strict
   - composer update $PREFER_LOWEST
