@@ -4,14 +4,16 @@ php:
   - 7.0
   - 7.1
   - 7.2
-  - 7.3
+  - 7.3beta3
+  - 7.3-beta3
   - nightly
 
 matrix:
   fast_finish: true
   allow_failures:
     - php:
-        - 7.3
+        - 7.3beta3
+        - 7.3-beta3
         - nightly
 
 env:
@@ -26,6 +28,8 @@ install:
   - composer self-update && composer --version
 
 before_script:
+  - phpenv install --releases
+  - phpenv versions
   - composer validate --no-check-all --strict
   - composer update $PREFER_LOWEST
 
