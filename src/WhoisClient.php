@@ -564,7 +564,7 @@ class WhoisClient
      *
      * @return array
      */
-    public function mergeResults($a1, $a2)
+    protected function mergeResults($a1, $a2)
     {
 
         reset($a2);
@@ -652,7 +652,7 @@ class WhoisClient
      * @param $server   server string in various formattes
      * @return array    Array containing 'host' key with server host and 'port' if defined in original $server string
      */
-    public function parseServer($server)
+    protected function parseServer($server)
     {
         $server = trim($server);
 
