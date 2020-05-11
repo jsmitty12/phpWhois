@@ -26,6 +26,7 @@ install:
   - composer self-update && composer --version
 
 before_script:
+  - php -i
   - composer validate --no-check-all --strict
   - composer update $PREFER_LOWEST
 
