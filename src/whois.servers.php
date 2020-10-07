@@ -152,7 +152,7 @@ return array(
     'center'                 => 'whois.donuts.co',
     'ceo'                    => 'whois.nic.ceo',
     'cf'                     => 'whois.dot.cf',
-    'ch'                     => 'whois.nic.ch',
+    'ch'                     => 'https://www.nic.ch/whois/',
     'cheap'                  => 'whois.donuts.co',
     'christmas'              => 'whois.uniregistry.net',
     'church'                 => 'whois.donuts.co',
