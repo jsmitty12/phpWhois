@@ -108,7 +108,7 @@ corporatedomains	cscglobal.com
 aero		nic.aero
 asia		nic.asia
 biz		neulevel.biz
-cat		dominis.cat
+cat		dominis.cat    google.cat
 coop		smile.coop nic.coop
 edu		berkeley.edu
 eu		eurid.eu
