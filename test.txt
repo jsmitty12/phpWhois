@@ -50,7 +50,8 @@ org.za		sex.org.za
 
 // Punicode
 
-// xn--p1ai 	xn--c1ad6a.xn--p1ai
+рф  рег.рф  // xn--p1ai 	xn--c1ad6a.xn--p1ai
+
 
 // .com/.net/.tv/.jobs
 
