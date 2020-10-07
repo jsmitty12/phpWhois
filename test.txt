@@ -11,7 +11,7 @@ br		registro.br
 ca		cira.ca
 ch		creart.ch blaueskreuz.ch
 cl      google.cl
-cn		china.cn
+cn		china.cn google.cn
 co		nic.co
 cz		nic.cz
 de		4ever.de denic.de google.de nic.de humblebundle.de a2ba91bff88c6983f6af010c41236206df64001d.de
