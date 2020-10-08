@@ -1,3 +1,6 @@
+os: linux
+dist: xenial
+
 language: php
 
 php:
@@ -8,19 +11,20 @@ php:
   - 7.4
   - nightly
 
-matrix:
+jobs:
   fast_finish: true
   allow_failures:
     - php:
-        - nightly
+        nightly
+  include:
+    - php: nightly
+      env: IGNORE_PLATFORM_REQS="--ignore-platform-reqs"
 
 env:
-  matrix:
+  jobs:
     - PREFER_LOWEST="--prefer-lowest --prefer-stable"
     - PREFER_LOWEST=""
 
-# faster builds on new travis containers
-sudo: false
 
 install:
   - composer self-update && composer --version
@@ -28,10 +32,10 @@ install:
 before_script:
   - php -i
   - composer validate --no-check-all --strict
-  - composer update $PREFER_LOWEST
+  - composer update $PREFER_LOWEST $IGNORE_PLATFORM_REQS
 
 script:
-  - php testsuite.php --ci
+#  - php testsuite.php --ci
   - vendor/bin/phpunit --verbose --coverage-clover=coverage.clover
 
 after_script:
