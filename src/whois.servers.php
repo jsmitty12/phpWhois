@@ -238,7 +238,7 @@ return array(
     'fj'                     => 'whois.usp.ac.fj',
     'flights'                => 'whois.donuts.co',
     'florist'                => 'whois.donuts.co',
-    'fm'                     => 'http://www.dot.fm/query_whois.cfm?domain={domain}&tld=fm',
+    'fm'                     => 'whois.nic.fm',
     'fo'                     => 'whois.nic.fo',
     'foo'                    => 'domain-registry-whois.l.google.com',
     'foundation'             => 'whois.donuts.co',
