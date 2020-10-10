@@ -111,7 +111,7 @@ biz		neulevel.biz
 cat		dominis.cat    google.cat
 coop		smile.coop nic.coop
 edu		berkeley.edu
-eu		eurid.eu
+eu		eurid.eu google.eu
 info		afilias.info
 int		who.int
 me		domain.me
