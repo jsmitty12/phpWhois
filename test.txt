@@ -45,7 +45,7 @@ uk		olsns.co.uk google.co.uk vibrantdigitalfuture.uk
 us		neustar.us google.us
 ve		nic.ve
 ws		samoanic.ws surf.ws
-co.za		sex.co.za
+co.za		sex.co.za google.co.za
 org.za		sex.org.za
 
 // Punicode
