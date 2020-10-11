@@ -20,7 +20,7 @@ fj		usp.ac.fj
 fm		dot.fm google.fm
 fr		nic.fr lemonade.fr google.fr
 hu		nic.hu google.hu
-ie		domainregistry.ie
+ie		domainregistry.ie google.ie
 il		tapuz.co.il
 in		registry.in
 is		isnic.is
