@@ -18,7 +18,7 @@ de		4ever.de denic.de google.de nic.de humblebundle.de a2ba91bff88c6983f6af010c4
 fi		ficora.fi google.fi
 fj		usp.ac.fj
 fm		dot.fm google.fm
-fr		nic.fr lemonade.fr
+fr		nic.fr lemonade.fr google.fr
 hu		nic.hu
 ie		domainregistry.ie
 il		tapuz.co.il
