@@ -318,7 +318,7 @@ return array(
     'ki'                     => 'whois.nic.ki',
     'kim'                    => 'whois.afilias.net',
     'kitchen'                => 'whois.donuts.co',
-    'kiwi'                   => 'whois.dot-kiwi.com',
+    'kiwi'                   => 'whois.nic.kiwi',
     'koeln'                  => 'whois-fe1.pdt.koeln.tango.knipp.de',
     'kr'                     => 'whois.kr',
     'krd'                    => 'whois.aridnrs.net.au',
