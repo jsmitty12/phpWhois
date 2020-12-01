@@ -1,3 +1,4 @@
+# https://config.travis-ci.com/explore
 os: linux
 dist: xenial
 
@@ -7,14 +8,17 @@ php:
   - 7.2
   - 7.3
   - 7.4
+  - 8.0
   - nightly
 
 jobs:
   fast_finish: true
   allow_failures:
-    - php:
-        nightly
+    - php: 8.0
+    - php: nightly
   include:
+    - php: 8.0
+      env: IGNORE_PLATFORM_REQS="--ignore-platform-reqs"
     - php: nightly
       env: IGNORE_PLATFORM_REQS="--ignore-platform-reqs"
 
