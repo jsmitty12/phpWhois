@@ -22,7 +22,7 @@ jobs:
 
 env:
   jobs:
-    - PREFER_LOWEST="--prefer-lowest --prefer-stable"
+#    - PREFER_LOWEST="--prefer-lowest --prefer-stable"
     - PREFER_LOWEST=""
 
 
