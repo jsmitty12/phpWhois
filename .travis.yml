@@ -18,9 +18,7 @@ jobs:
     - php: nightly
   include:
     - php: 8.0
-      env: IGNORE_PLATFORM_REQS="--ignore-platform-reqs"
     - php: nightly
-      env: IGNORE_PLATFORM_REQS="--ignore-platform-reqs"
 
 env:
   jobs:
@@ -34,7 +32,7 @@ install:
 before_script:
   - php -i
   - composer validate --no-check-all --strict
-  - composer update $PREFER_LOWEST $IGNORE_PLATFORM_REQS
+  - composer update $PREFER_LOWEST
 
 script:
 #  - php testsuite.php --ci
