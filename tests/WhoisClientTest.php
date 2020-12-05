@@ -7,7 +7,13 @@ class WhoisClientTest extends \PHPUnit\Framework\TestCase
     public function testVersion()
     {
         $client = new WhoisClient();
-        $this->assertRegExp('/^(\d+)\.(\d+)\.(\d+)(-\w+)*$/', $client->codeVersion);
+
+        if (method_exists($this, 'assertMatchesRegularExpression')) {
+            $this->assertMatchesRegularExpression('/^(\d+)\.(\d+)\.(\d+)(-\w+)*$/', $client->codeVersion);
+        } else {
+            // Deprecated in PHPUnit 9
+            $this->assertRegExp('/^(\d+)\.(\d+)\.(\d+)(-\w+)*$/', $client->codeVersion);
+        }
     }
 
     /**
