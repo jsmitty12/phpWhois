@@ -21,6 +21,7 @@ env:
   jobs:
 #    - PREFER_LOWEST="--prefer-lowest --prefer-stable"
     - PREFER_LOWEST=""
+    - XDEBUG_MODE="coverage"
 
 
 install:
