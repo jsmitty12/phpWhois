@@ -1,3 +1,26 @@
+5.6.5 - 2020-12-27
+------------------
+* Remove line ending override for `.txt` fixtures
+* Add tests for .ru domains
+* Add test for .cat domains
+* Add tests for .ch domains
+* Add tests for .cn domains
+* Add tests for .co domains
+* Add tests for .co.za domains
+* Add tests for .coop domains
+* Add tests for .cz domains
+* Add tests for .eu domains
+* Add tests for .fi domains
+* Add tests for .fj domains
+* Add tests for .fm domains
+* Add tests for .fr domains
+* Add tests for .hu domains
+* Add tests for .ie domains
+* Stub tests for .il domains
+* Stub tests for gtld afternic
+* Synchronize Travis-CI config with `master` branch
+* Set xdebug.mode=coverage via global environment variable
+
 5.6.4 - 2020-10-03
 ------------------
 * Improve support for `.co.uk` domains (TorbenLundsgaard)
