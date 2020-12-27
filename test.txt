@@ -114,6 +114,7 @@ edu		berkeley.edu
 eu		eurid.eu google.eu
 info		afilias.info
 int		who.int
+kiwi    hello.kiwi
 me		domain.me
 mobi		mtld.mobi
 museum		nic.museum
