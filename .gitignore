@@ -11,3 +11,5 @@ nbproject
 *.phar
 
 coverage.clover
+*.cache
+*.diff
