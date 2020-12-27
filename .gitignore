@@ -9,3 +9,5 @@ nbproject
 .idea/
 
 *.phar
+
+coverage.clover
