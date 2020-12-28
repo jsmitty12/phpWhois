@@ -1,26 +1,27 @@
 5.6.5 - 2020-12-28
 ------------------
-* Remove line ending override for `.txt` fixtures
-* Add tests for .ru domains
-* Add test for .cat domains
-* Add tests for .ch domains
-* Add tests for .cn domains
-* Add tests for .co domains
-* Add tests for .co.za domains
-* Add tests for .coop domains
-* Add tests for .cz domains
-* Add tests for .eu domains
-* Add tests for .fi domains
-* Add tests for .fj domains
-* Add tests for .fm domains
-* Add tests for .fr domains
-* Add tests for .hu domains
-* Add tests for .ie domains
-* Stub tests for .il domains
-* Stub tests for gtld afternic
-* Add parser for .kiwi domains
-* Synchronize Travis-CI config with `master` branch
-* Set xdebug.mode=coverage via global environment variable
+* Remove line ending override for `.txt` fixtures (jsmitty12)
+* Add tests for .ru domains (jsmitty12)
+* Add test for .cat domains (jsmitty12)
+* Add tests for .ch domains (jsmitty12)
+* Add tests for .cn domains (jsmitty12)
+* Add tests for .co domains (jsmitty12)
+* Add tests for .co.za domains (jsmitty12)
+* Add tests for .coop domains (jsmitty12)
+* Add tests for .cz domains (jsmitty12)
+* Add tests for .eu domains (jsmitty12)
+* Add tests for .fi domains (jsmitty12)
+* Add tests for .fj domains (jsmitty12)
+* Add tests for .fm domains (jsmitty12)
+* Add tests for .fr domains (jsmitty12)
+* Add tests for .hu domains (jsmitty12)
+* Add tests for .ie domains (jsmitty12)
+* Stub tests for .il domains (jsmitty12)
+* Stub tests for gtld afternic (jsmitty12)
+* Add parser for .kiwi domains (jsmitty12)
+* Fix whois server for .kiwi domains (sirvulcan)
+* Synchronize Travis-CI config with `master` branch (jsmitty12)
+* Set xdebug.mode=coverage via global environment variable (jsmitty12)
 
 5.6.4 - 2020-10-03
 ------------------
