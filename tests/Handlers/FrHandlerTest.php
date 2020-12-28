@@ -51,6 +51,7 @@ class FrHandlerTest extends HandlerTest
      */
     public function parseGoogleDotFr()
     {
+        $this->skipWhenPhp8();
         $query = 'google.fr';
 
         $fixture = $this->loadFixture($query);
@@ -83,6 +84,7 @@ class FrHandlerTest extends HandlerTest
      */
     public function parseLemonadeDotFr()
     {
+        $this->skipWhenPhp8();
         $query = 'lemonade.fr';
 
         $fixture = $this->loadFixture($query);
