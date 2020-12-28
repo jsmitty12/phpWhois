@@ -1,4 +1,4 @@
-5.6.5 - 2020-12-27
+5.6.5 - 2020-12-28
 ------------------
 * Remove line ending override for `.txt` fixtures
 * Add tests for .ru domains
@@ -18,6 +18,7 @@
 * Add tests for .ie domains
 * Stub tests for .il domains
 * Stub tests for gtld afternic
+* Add parser for .kiwi domains
 * Synchronize Travis-CI config with `master` branch
 * Set xdebug.mode=coverage via global environment variable
 
